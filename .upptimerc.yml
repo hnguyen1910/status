@@ -9,42 +9,56 @@ sites:
       - 200
       - 201
       - 403 # Cloudflare bot protect
+    headers:
+      - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246
   - name: Link Shortener (basic)
     url: https://r.tinvn.eu.org
     expectedStatusCodes:
       - 200
       - 201
       - 403 
+    headers:
+      - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246
   - name: Link Shortener (discord.gg links)
     url: https://d.tinvn.eu.org
     expectedStatusCodes:
       - 200
       - 201
       - 403 
+    headers:
+      - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246
   - name: Files
     url: https://fs.tinvn.eu.org
     expectedStatusCodes:
       - 200
       - 201
       - 403 
+    headers:
+      - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246
   - name: NoPaste
     url: https://nopaste.tinvn.eu.org
     expectedStatusCodes:
       - 200
       - 201
-      - 403 
+      - 403
+    headers:
+      - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246
   - name: Discord Bot
     url: https://fwt.tinvn.eu.org
     expectedStatusCodes:
       - 200
       - 201
       - 403
+    headers:
+      - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246
   - name: This status page
     url: https://status.tinvn.eu.org
     expectedStatusCodes:
       - 200
       - 201
       - 403
+    headers:
+      - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -53,8 +67,8 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: HNStatus
-  introTitle: "This page powered entirely by GitHub."
-  introMessage: :)
+  introTitle: ":)"
+  introMessage: This page powered entirely by GitHub.
   navbar:
     - title: Home
       href: https://tinvn.eu.org\
