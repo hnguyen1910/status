@@ -1,31 +1,69 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: hnguyen1910 # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Homepage
+    url: https://tinvn.eu.org
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403 # Cloudflare bot protect
+  - name: Link Shortener (basic)
+    url: https://r.tinvn.eu.org
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403 
+  - name: Link Shortener (discord.gg links)
+    url: https://d.tinvn.eu.org
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403 
+  - name: Files
+    url: https://fs.tinvn.eu.org
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403 
+  - name: NoPaste
+    url: https://nopaste.tinvn.eu.org
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403 
+  - name: Discord Bot
+    url: https://nopaste.tinvn.eu.org
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+  - name: This status page
+    url: https://status.tinvn.eu.org
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.tinvn.eu.org
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: HNStatus
+  introTitle: "This page powered entirely by GitHub."
+  introMessage: :)
   navbar:
+    - title: Home
+      href: https://tinvn.eu.org\
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  js: "window.onload = function() { alert('Hello! Welcome to my status page!') }"
+user-agent: hnguyen1910
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
