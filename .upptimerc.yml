@@ -34,7 +34,7 @@ sites:
       - 201
       - 403 
   - name: Discord Bot
-    url: https://nopaste.tinvn.eu.org
+    url: https://fwt.tinvn.eu.org
     expectedStatusCodes:
       - 200
       - 201
