@@ -5,60 +5,18 @@ repo: status # The name of this repository
 sites:
   - name: Homepage
     url: https://tinvn.eu.org
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403 # Cloudflare bot protect
-    headers:
-      - 'seckey:$SECKEY'
   - name: Link Shortener (basic)
     url: https://r.tinvn.eu.org
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403 
-    headers:
-      - 'seckey:$SECKEY'
   - name: Link Shortener (discord.gg links)
     url: https://d.tinvn.eu.org
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403 
-    headers:
-      - 'seckey:$SECKEY'
   - name: Files
     url: https://fs.tinvn.eu.org
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403 
-    headers:
-      - 'seckey:$SECKEY'
   - name: NoPaste
     url: https://nopaste.tinvn.eu.org
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403
-    headers:
-      - 'seckey:$SECKEY'
   - name: Discord Bot
     url: https://fwt.tinvn.eu.org
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403
-    headers:
-      - 'seckey:$SECKEY'
   - name: This status page
     url: https://status.tinvn.eu.org
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403
-    headers:
-      - 'seckey:$SECKEY'
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
