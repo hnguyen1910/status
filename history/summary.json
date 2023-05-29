@@ -10,11 +10,11 @@
     "uptimeWeek": "99.92%",
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.92%",
-    "time": 625,
-    "timeDay": 803,
-    "timeWeek": 625,
-    "timeMonth": 625,
-    "timeYear": 625,
+    "time": 767,
+    "timeDay": 1539,
+    "timeWeek": 767,
+    "timeMonth": 767,
+    "timeYear": 767,
     "dailyMinutesDown": {
       "2023-05-26": 4
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "99.91%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.91%",
-    "time": 616,
-    "timeDay": 1095,
-    "timeWeek": 616,
-    "timeMonth": 616,
-    "timeYear": 616,
+    "time": 656,
+    "timeDay": 1112,
+    "timeWeek": 656,
+    "timeMonth": 656,
+    "timeYear": 656,
     "dailyMinutesDown": {
       "2023-05-26": 5
     }
@@ -50,11 +50,11 @@
     "uptimeWeek": "99.91%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.91%",
-    "time": 785,
-    "timeDay": 916,
-    "timeWeek": 785,
-    "timeMonth": 785,
-    "timeYear": 785,
+    "time": 923,
+    "timeDay": 1584,
+    "timeWeek": 923,
+    "timeMonth": 923,
+    "timeYear": 923,
     "dailyMinutesDown": {
       "2023-05-26": 5
     }
@@ -70,11 +70,11 @@
     "uptimeWeek": "99.90%",
     "uptimeMonth": "99.90%",
     "uptimeYear": "99.90%",
-    "time": 652,
-    "timeDay": 1014,
-    "timeWeek": 652,
-    "timeMonth": 652,
-    "timeYear": 652,
+    "time": 679,
+    "timeDay": 1012,
+    "timeWeek": 679,
+    "timeMonth": 679,
+    "timeYear": 679,
     "dailyMinutesDown": {
       "2023-05-26": 5
     }
@@ -90,11 +90,11 @@
     "uptimeWeek": "99.90%",
     "uptimeMonth": "99.90%",
     "uptimeYear": "99.90%",
-    "time": 238,
-    "timeDay": 129,
-    "timeWeek": 238,
-    "timeMonth": 238,
-    "timeYear": 238,
+    "time": 237,
+    "timeDay": 150,
+    "timeWeek": 237,
+    "timeMonth": 237,
+    "timeYear": 237,
     "dailyMinutesDown": {
       "2023-05-26": 6
     }
@@ -105,18 +105,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fwt.tinvn.eu.org.ico",
     "slug": "discord-bot",
     "status": "down",
-    "uptime": "56.32%",
+    "uptime": "54.85%",
     "uptimeDay": "35.84%",
-    "uptimeWeek": "56.32%",
-    "uptimeMonth": "56.32%",
-    "uptimeYear": "56.32%",
+    "uptimeWeek": "54.85%",
+    "uptimeMonth": "54.85%",
+    "uptimeYear": "54.85%",
     "time": 342,
     "timeDay": 536,
     "timeWeek": 342,
     "timeMonth": 342,
     "timeYear": 342,
     "dailyMinutesDown": {
-      "2023-05-28": 854,
+      "2023-05-29": 77,
+      "2023-05-28": 924,
       "2023-05-27": 1440,
       "2023-05-26": 89
     }
@@ -132,11 +133,11 @@
     "uptimeWeek": "99.89%",
     "uptimeMonth": "99.89%",
     "uptimeYear": "99.89%",
-    "time": 219,
-    "timeDay": 131,
-    "timeWeek": 219,
-    "timeMonth": 219,
-    "timeYear": 219,
+    "time": 228,
+    "timeDay": 198,
+    "timeWeek": 228,
+    "timeMonth": 228,
+    "timeYear": 228,
     "dailyMinutesDown": {
       "2023-05-26": 6
     }
