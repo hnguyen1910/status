@@ -5,16 +5,31 @@ repo: status # The name of this repository
 sites:
   - name: Homepage
     url: https://tinvn.eu.org
+    expectedStatusCodes:
+      - 500
+      - 502
   - name: Link Shortener (basic)
     url: https://r.tinvn.eu.org
+    expectedStatusCodes:
+      - 500
+      - 502
   - name: Link Shortener (discord.gg links)
     url: https://d.tinvn.eu.org
+    expectedStatusCodes:
+      - 500
+      - 502
   - name: Files
     url: https://fs.tinvn.eu.org
+    expectedStatusCodes:
+      - 500
+      - 502
   - name: NoPaste
     url: https://nopaste.tinvn.eu.org
   - name: NPaste
     url: https://paste.tinvn.eu.org
+    expectedStatusCodes:
+      - 500
+      - 502
   # - name: Discord Bot
     # url: https://fwt.tinvn.eu.org
   - name: This status page
@@ -36,7 +51,6 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-  js: "window.onDOMContentLoaded  = function() { alert('Hello! Welcome to my status page!') }"
 user-agent: hnguyen1910
 
 # Upptime also supports notifications, assigning issues, and more
