@@ -51,7 +51,7 @@ sites:
       - 307
       - 308
   # - name: Discord Bot
-    # url: https://fwt.tinvn.eu.org
+  #   url: https://fwt.tinvn.eu.org
   - name: This status page
     url: https://status.tinvn.eu.org
 
